@@ -16,4 +16,12 @@ Any file that does't have a description -if there is any- is propably for testin
 - Prototype: `void print_list(const listint_t *list)`
 
 
+`0-bubble_sort.c` -> a source code file for a function thatthat sorts an array of integers in ascending order using the Bubble sort algorithm
+- Prototype: void bubble_sort(int *array, size_t size);
+- It is expected to print the array after each time the two elements swap
+
+`0-O` -> the big O notations of the time complexity of the Bubble sort algorithm, with 1 notation per line:
+- in the best case
+- in the average case
+- in the worst case
 
