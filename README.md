@@ -26,7 +26,7 @@ Any file that does't have a description -if there is any- is propably for testin
 - in the worst case
 
 
-`1-insertion_sort_list.c` -> a source code file for a function thatsorts a doubly linked list of integers in ascending order using the Insertion sort algorithm
+`1-insertion_sort_list.c` -> a source code file for a function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm
 - Prototype: `void insertion_sort_list(listint_t **list);`
 - You are not allowed to modify the integer n of a node. You have to swap the nodes themselves.
 - You’re expected to print the list after each time you swap two elements (See example below)
@@ -35,3 +35,14 @@ Any file that does't have a description -if there is any- is propably for testin
 - in the best case
 - in the average case
 - in the worst case
+
+
+`2-selection_sort.c` -> a source code file for a function that sorts an array of integers in ascending order using the Selection sort algorithm
+- Prototype: `void selection_sort(int *array, size_t size);`
+- You’re expected to print the `array` after each time you swap two elements
+
+`2-O` -> the big O notations of the time complexity of the Selection sort algorithm, with 1 notation per line:
+- in the best case
+- in the average case
+- in the worst case
+
