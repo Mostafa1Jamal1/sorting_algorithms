@@ -1,6 +1,11 @@
 #include "sort.h"
 /**
- *
+ * recursive_quick_sort - sorts an array of integers in ascending order
+ * using the Quick sort algorithm
+ * @array: the array to sort
+ * @size: the size of the array
+ * @start: the start of the partition
+ * @end: the end of the partition
  */
 void recursive_quick_sort(int *array, size_t size, long start, long end)
 {
@@ -8,8 +13,8 @@ void recursive_quick_sort(int *array, size_t size, long start, long end)
 	int tmp, pivot;
 	bool isbig = false;
 	/* Base condition */
-        if (start >= end)
-                return;
+	if (start >= end)
+		return;
 	/* Partitioning */
 	pivot = array[end];
 	i = start;
@@ -42,7 +47,12 @@ void recursive_quick_sort(int *array, size_t size, long start, long end)
 		recursive_quick_sort(array, size, i + 1, end);
 	}
 }
-
+/**
+ * quick_sort - sorts an array of integers in ascending order
+ * using the Quick sort algorithm
+ * @array: the array to sort
+ * @size: the size of the array
+ */
 void quick_sort(int *array, size_t size)
 {
 	long start = 0;
