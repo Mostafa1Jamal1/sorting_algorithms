@@ -20,7 +20,7 @@ void recursive_quick_sort(int *array, size_t size, long start, long end)
 	i = start;
 	for (j = start; j < end; j++)
 	{
-		if (array[j] < pivot && !isbig)
+		if (array[j] <= pivot && !isbig)
 		{
 			i++;
 			continue;
